@@ -1,0 +1,23 @@
+{
+  "name": "cloudflare-qwik-astro",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.4.1",
+    "@astrojs/cloudflare": "^8.1.0",
+    "@builder.io/qwik": "^1.4.0",
+    "@qwikdev/astro": "^0.4.4",
+    "astro": "^4.2.1",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "wrangler": "^3.23.0"
+  }
+}
